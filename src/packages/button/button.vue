@@ -10,6 +10,7 @@
 
 <script>
 export default {
+  name: 'ayButton',
   props: {
     type: {
       type: String,
@@ -26,7 +27,7 @@ export default {
   },
   methods: {
     handlerClick() {
-        this.$emit('click')
+      this.$emit('click')
     }
   }
 }

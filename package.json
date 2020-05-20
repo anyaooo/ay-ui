@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve --open --port 4000",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name ayUi 'src/packages/index.js'"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -21,6 +22,7 @@
     "@vue/cli-service": "~4.2.0",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.0.3",
+    "babel-plugin-add-module-exports": "^1.0.2",
     "babel-plugin-component": "^1.1.1",
     "babel-preset-es2015": "^6.24.1",
     "eslint": "^6.7.2",
